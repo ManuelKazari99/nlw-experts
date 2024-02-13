@@ -1,95 +1,95 @@
 const perguntas = [
-    {
-      pergunta: "O que é JavaScript?",
-      respostas: [
-        "Uma linguagem de programação",
-        "Um tipo de café",
-        "Um navegador da web",
-      ],
-      correta: 0,
-    },
-    {
-      pergunta: "Quais são as formas de declarar uma variável em JavaScript?",
-      respostas: [
-        "var, let, const",
-        "int, string, bool",
-        "declarar, var, const",
-      ],
-      correta: 1,
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um bloco de código reutilizável",
-        "Um tipo de erro",
-        "Uma variável",
-      ],
-      correta: 2,
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Document Object Model, uma representação da estrutura de uma página web",
-        "Uma linguagem de programação",
-        "Um tipo de café",
-      ],
-      correta: 0,
-    },
-    {
-      pergunta: "Como se faz um comentário de uma linha em JavaScript?",
-      respostas: [
-        "// Este é um comentário de uma linha",
-        "/* Este é um comentário de uma linha */",
-        "' Este é um comentário de uma linha",
-      ],
-      correta: 1,
-    },
-    {
-      pergunta: "Qual é a maneira correta de escrever um loop em JavaScript?",
-      respostas: [
-        "for (var i = 0; i < 5; i++) {",
-        "loop {",
-        "if (i < 5) then {",
-      ],
-      correta: 2,
-    },
-    {
-      pergunta: "O que é um array em JavaScript?",
-      respostas: [
-        "Uma estrutura de dados que armazena uma coleção de elementos",
-        "Uma função",
-        "Um tipo de variável",
-      ],
-      correta: 0,
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Verificar igualdade de valor e tipo",
-        "Atribuir um valor a uma variável",
-        "Comparar valores",
-      ],
-      correta: 1,
-    },
-    {
-      pergunta: "O que é uma promessa (Promise) em JavaScript?",
-      respostas: [
-        "Um objeto usado para processamento assíncrono",
-        "Um tipo de erro",
-        "Uma variável",
-      ],
-      correta: 2,
-    },
-    {
-      pergunta: "O que é uma closure em JavaScript?",
-      respostas: [
-        "Uma função interna que tem acesso ao escopo externo",
-        "Um método para fechar uma página da web",
-        "Um tipo de estrutura de dados em JavaScript",
-      ],
-      correta: 0,
+  {
+    pergunta: "Como posso surpreender meu namorado?",
+    respostas: [
+      "Cozinhando sua refeição favorita",
+      "Lavando seu carro",
+      "Comprando um presente que ele sempre quis",
+    ],
+    correta: 0,
   },
-  ];
+  {
+    pergunta: "Qual gesto pode deixar meu namorado feliz?",
+    respostas: [
+      "Escrever uma carta de amor",
+      "Organizar uma noite romântica",
+      "Fazer um piquenique ao ar livre",
+    ],
+    correta: 1,
+  },
+  {
+    pergunta: "Como expressar meu amor pelo meu namorado?",
+    respostas: [
+      "Dizendo 'Eu te amo' todos os dias",
+      "Fazendo um álbum de fotos juntos",
+      "Fazendo uma massagem relaxante",
+    ],
+    correta: 0,
+  },
+  {
+    pergunta: "O que posso fazer para animar meu namorado quando ele estiver triste?",
+    respostas: [
+      "Assistindo a um filme engraçado juntos",
+      "Saindo para uma caminhada",
+      "Deixando-o sozinho para se recuperar",
+    ],
+    correta: 0,
+  },
+  {
+    pergunta: "Qual é uma maneira especial de mostrar meu apreço pelo meu namorado?",
+    respostas: [
+      "Fazendo um jantar romântico em casa",
+      "Dando-lhe um dia de spa",
+      "Dando-lhe um abraço apertado",
+    ],
+    correta: 2,
+  },
+  {
+    pergunta: "Como posso demonstrar que valorizo meu relacionamento?",
+    respostas: [
+      "Fazendo uma viagem juntos",
+      "Escrevendo um poema para ele",
+      "Fazendo um gesto surpresa inesperado",
+    ],
+    correta: 0,
+  },
+  {
+    pergunta: "Qual é uma maneira criativa de mostrar meu amor pelo meu namorado?",
+    respostas: [
+      "Organizando um jantar temático",
+      "Aprendendo a tocar sua música favorita",
+      "Fazendo uma serenata para ele",
+    ],
+    correta: 1,
+  },
+  {
+    pergunta: "O que pode alegrar o dia do meu namorado?",
+    respostas: [
+      "Enviando-lhe uma mensagem de texto doce",
+      "Fazendo um álbum de fotos personalizado",
+      "Cozinhando um café da manhã especial",
+    ],
+    correta: 0,
+  },
+  {
+    pergunta: "Qual é uma maneira simples de mostrar meu afeto pelo meu namorado?",
+    respostas: [
+      "Deixando-lhe pequenas notas de amor",
+      "Planejando uma viagem romântica",
+      "Fazendo uma surpresa elaborada",
+    ],
+    correta: 0,
+  },
+  {
+    pergunta: "O que posso fazer para fazer meu namorado se sentir especial?",
+    respostas: [
+      "Dando-lhe um presente pensativo",
+      "Fazendo um passeio de aventura juntos",
+      "Passando um tempo de qualidade juntos",
+    ],
+    correta: 2,
+  },
+];
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
